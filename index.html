@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rudra Gupta - Resume</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #1f4e79, #3ca0dc);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    .header .subtitle {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Card Sections */
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    }
+    .card h2 {
+      color: #1f4e79;
+      border-bottom: 2px solid #3ca0dc;
+      padding-bottom: 0.5rem;
+      margin-top: 0;
+    }
+
+    /* Contact Info */
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .contact p {
+      margin: 0.5rem 0;
+    }
+    .contact a {
+      color: #1f4e79;
+      text-decoration: none;
+      border-bottom: 1px dotted #3ca0dc;
+    }
+    .contact a:hover {
+      color: #3ca0dc;
+    }
+
+    /* Education Table */
+    .edu-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .edu-table th,
+    .edu-table td {
+      text-align: left;
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+    }
+    .edu-table thead {
+      background: #eaf4fb;
+    }
+    .edu-table th {
+      color: #1f4e79;
+    }
+
+    /* Skills */
+    .skills {
+      columns: 2;
+      column-gap: 2rem;
+      padding-left: 1.2rem;
+    }
+    .skills li {
+      margin-bottom: 1rem;
+      break-inside: avoid;
+    }
+    .bar {
+      height: 8px;
+      background: #e0e0e0;
+      border-radius: 4px;
+      margin-top: 4px;
+      overflow: hidden;
+    }
+    .bar span {
+      display: block;
+      height: 100%;
+      background: #3ca0dc;
+      border-radius: 4px;
+    }
+
+    /* Placeholder Text */
+    .placeholder {
+      font-style: italic;
+      color: #777;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1f4e79;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <h1>RUDRA GUPTA</h1>
+    <p class="subtitle">Aspiring Web Developer</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Contact Info -->
+    <section class="card">
+      <h2>Contact Information</h2>
+      <div class="contact">
+        <div>
+          <p><strong>Email:</strong> rudrahareshgupta@gmail.com</p>
+          <p><strong>Phone:</strong> +91-8178914788</p>
+        </div>
+        <div>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/rudra-gupta" target="_blank">
+              linkedin.com/in/rudra-gupta
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="card">
+      <h2>Education</h2>
+      <table class="edu-table">
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Class</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Delhi Convent School</td>
+            <td>10th</td>
+            <td>71%</td>
+          </tr>
+          <tr>
+            <td>Vivekanand Public School</td>
+            <td>12th</td>
+            <td>72%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Skills -->
+    <section class="card">
+      <h2>Skills</h2>
+      <ol class="skills">
+        <li>
+          <strong>HTML</strong> - Intermediate
+          <div class="bar"><span style="width: 70%;"></span></div>
+        </li>
+        <li>
+          <strong>CSS</strong> - Novice
+          <div class="bar"><span style="width: 40%;"></span></div>
+        </li>
+        <li>
+          <strong>JavaScript</strong> - Novice
+          <div class="bar"><span style="width: 40%;"></span></div>
+        </li>
+        <li>
+          <strong>Python</strong> - Intermediate
+          <div class="bar"><span style="width: 70%;"></span></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Projects -->
+    <section class="card">
+      <h2>Projects</h2>
+      <p class="placeholder">Details of your projects would go here...</p>
+    </section>
+
+    <!-- About -->
+    <section class="card">
+      <h2>About Me</h2>
+      <p class="placeholder">
+        I am a passionate web developer with a keen interest in creating dynamic
+        and responsive web applications. My goal is to leverage my skills in
+        HTML, CSS, and JavaScript to build user-friendly interfaces and enhance
+        user experiences.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Rudra Gupta. All rights reserved.</p>
+  </footer>
+</body>
+</html>
